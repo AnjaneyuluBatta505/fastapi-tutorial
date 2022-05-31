@@ -12,3 +12,5 @@ fastapi tutorial for beginners
 ## using pydantic model - data validation
   - [video](https://youtu.be/K7rlHEnF2-M)
   - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/working_with_pydantic)
+
+## validating request body
