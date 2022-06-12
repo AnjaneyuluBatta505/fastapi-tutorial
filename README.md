@@ -13,4 +13,6 @@ fastapi tutorial for beginners
   - [video](https://youtu.be/K7rlHEnF2-M)
   - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/working_with_pydantic)
 
-## validating request body
+## validating request body - `post`, `put` and `delete` rest api endpoints
+  - [video](https://youtu.be/K7rlHEnF2-M)
+  - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/working_with_pydantic)
