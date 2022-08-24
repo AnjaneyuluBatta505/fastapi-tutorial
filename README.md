@@ -20,3 +20,7 @@ fastapi tutorial for beginners
 ## implementing `PUT`, `DELETE` api endpoints
   - [video](https://youtu.be/sTKwBpUJatw)
   - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/fastapi_request_body)
+
+## introduction to sqlalchemy alembic db migration tool
+   - [video](https://youtu.be/N9y9QkBM-Aw)
+   - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/alembic_db_migration_tool)
