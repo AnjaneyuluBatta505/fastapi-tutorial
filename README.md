@@ -24,3 +24,7 @@ fastapi tutorial for beginners
 ## introduction to sqlalchemy alembic db migration tool
    - [video](https://youtu.be/N9y9QkBM-Aw)
    - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/alembic_db_migration_tool)
+
+## using SQLAlchemy for DB queries
+   - [video](https://youtu.be/6RrwKDGKcxM)
+   - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/fastapi_with_sqlalchemy)
