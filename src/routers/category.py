@@ -1,9 +1,13 @@
+import time
+import asyncio
 from fastapi import APIRouter, HTTPException, Response
 
 from ..schemas.category import CategoryModel, CategoryResponseModel
 from ..services.category import create_category, get_category, update_category, delete_category
 from ..queries.category import fetch_categories
 from ..errors.base import AlreadyExistsError, NotFoundError
+
+from ..queries.async_category import async_fetch_categories
 
 
 router = APIRouter()
@@ -21,6 +25,7 @@ def create_new_category(model: CategoryModel):
 
 @router.get('/categories', status_code=200, response_model=list[CategoryResponseModel])
 def list_categories():
+    time.sleep(0.2)
     return fetch_categories()
 
 
@@ -54,3 +59,9 @@ def delete_category_by_id(pk: int):
         raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get('/async_categories', status_code=200)
+async def list_async_categories():
+    await asyncio.sleep(0.2)
+    return await async_fetch_categories()
