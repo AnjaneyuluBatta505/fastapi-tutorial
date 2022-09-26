@@ -28,3 +28,7 @@ fastapi tutorial for beginners
 ## using SQLAlchemy for DB queries
    - [video](https://youtu.be/6RrwKDGKcxM)
    - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/fastapi_with_sqlalchemy)
+   
+## using async SQLAlchemy for DB queries
+   - [video](https://youtu.be/khACcLxy8p0)
+   - [code](https://github.com/AnjaneyuluBatta505/fastapi-tutorial/tree/fastapi_with_async_sqlalchemy)
